@@ -112,11 +112,7 @@
 				0D5107DB205FAE7B0083E9E2 /* AppDelegate.m */,
 				0D5107DD205FAE7B0083E9E2 /* ViewController.h */,
 				0D5107DE205FAE7B0083E9E2 /* ViewController.m */,
-				0D5107E0205FAE7B0083E9E2 /* Main.storyboard */,
-				0D5107E3205FAE7B0083E9E2 /* Assets.xcassets */,
-				0D5107E5205FAE7B0083E9E2 /* LaunchScreen.storyboard */,
-				0D5107E8205FAE7B0083E9E2 /* Info.plist */,
-				0D5107E9205FAE7B0083E9E2 /* main.m */,
+				0D51080D205FB1EF0083E9E2 /* Supporting Files */,
 			);
 			path = DeviceInfo;
 			sourceTree = "<group>";
@@ -137,6 +133,18 @@
 				0D510800205FAE7B0083E9E2 /* Info.plist */,
 			);
 			path = DeviceInfoUITests;
+			sourceTree = "<group>";
+		};
+		0D51080D205FB1EF0083E9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5107E0205FAE7B0083E9E2 /* Main.storyboard */,
+				0D5107E3205FAE7B0083E9E2 /* Assets.xcassets */,
+				0D5107E5205FAE7B0083E9E2 /* LaunchScreen.storyboard */,
+				0D5107E8205FAE7B0083E9E2 /* Info.plist */,
+				0D5107E9205FAE7B0083E9E2 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4B892FE1C05F4EFABC084229 /* Pods */ = {
@@ -448,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -497,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -510,7 +518,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				INFOPLIST_FILE = "DeviceInfo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reason.technology.DeviceInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,7 +533,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				INFOPLIST_FILE = "DeviceInfo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reason.technology.DeviceInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
