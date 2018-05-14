@@ -20,6 +20,8 @@
     
     NSLog(@"Test");
     
+    NSLog(@"TEST1");
+    
     return YES;
 }
 
