@@ -28,6 +28,8 @@
     
     NSLog(@"TEST4");
     
+    NSLog(@"TEST5");
+    
     return YES;
 }
 
