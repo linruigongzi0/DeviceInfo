@@ -22,6 +22,8 @@
     
     NSLog(@"Commit2");
     
+    NSLog(@"Release");
+    
     return YES;
 }
 
