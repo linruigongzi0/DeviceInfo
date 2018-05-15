@@ -20,6 +20,8 @@
     
     NSLog(@"Commit 1");
     
+    NSLog(@"Commit 2");
+    
     return YES;
 }
 
