@@ -24,6 +24,8 @@
     
     NSLog(@"Commit 2");
     
+    NSLog(@"Commit 3");
+    
     return YES;
 }
 
