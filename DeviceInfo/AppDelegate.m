@@ -24,6 +24,8 @@
     
     NSLog(@"Release");
     
+    NSLog(@"Commit 4");
+    
     return YES;
 }
 
