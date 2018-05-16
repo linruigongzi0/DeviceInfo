@@ -18,12 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSLog(@"Master");
-    
-    NSLog(@"Feature Start");
-    
-    NSLog(@"Feature End");
-    
     return YES;
 }
 
