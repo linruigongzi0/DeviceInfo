@@ -17,25 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    NSLog(@"Commit 5");
-    
-    NSLog(@"Commit 1");
-    
-    NSLog(@"Commit 2");
-    
-    NSLog(@"Commit 3");
-    
-    NSLog(@"Commit 6");
-    
+
     return YES;
 }
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    
-    NSLog(@"Commit 4");
-    
+        
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
 }
