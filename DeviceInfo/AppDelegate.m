@@ -20,6 +20,8 @@
     
     NSLog(@"Feature Start");
     
+    NSLog(@"Feature End");
+    
     return YES;
 }
 
