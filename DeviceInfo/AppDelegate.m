@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
 
     NSLog(@"master");
+    NSLog(@"Rebase");
     
     return YES;
 }
