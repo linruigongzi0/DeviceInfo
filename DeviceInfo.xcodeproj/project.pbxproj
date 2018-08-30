@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D49562B20B3B30600F3B617 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D49562A20B3B30600F3B617 /* MyCollectionViewController.m */; };
+		0D49562F20B3B68B00F3B617 /* MyCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D49562E20B3B68B00F3B617 /* MyCollectionViewItem.m */; };
 		0D5107DC205FAE7B0083E9E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107DB205FAE7B0083E9E2 /* AppDelegate.m */; };
 		0D5107DF205FAE7B0083E9E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107DE205FAE7B0083E9E2 /* ViewController.m */; };
 		0D5107E2205FAE7B0083E9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5107E0205FAE7B0083E9E2 /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		0D5107EA205FAE7B0083E9E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107E9205FAE7B0083E9E2 /* main.m */; };
 		0D5107F4205FAE7B0083E9E2 /* DeviceInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107F3205FAE7B0083E9E2 /* DeviceInfoTests.m */; };
 		0D5107FF205FAE7B0083E9E2 /* DeviceInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107FE205FAE7B0083E9E2 /* DeviceInfoUITests.m */; };
+		0DF2329F20AEC8D400CF53B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107DE205FAE7B0083E9E2 /* ViewController.m */; };
+		0DF232A020AEC8D400CF53B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107E9205FAE7B0083E9E2 /* main.m */; };
+		0DF232A120AEC8D400CF53B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5107DB205FAE7B0083E9E2 /* AppDelegate.m */; };
+		0DF232A320AEC8D400CF53B8 /* libPods-DeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E531A94FC3E3AB713D91465A /* libPods-DeviceInfo.a */; };
+		0DF232A520AEC8D400CF53B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5107E5205FAE7B0083E9E2 /* LaunchScreen.storyboard */; };
+		0DF232A620AEC8D400CF53B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5107E3205FAE7B0083E9E2 /* Assets.xcassets */; };
+		0DF232A720AEC8D400CF53B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5107E0205FAE7B0083E9E2 /* Main.storyboard */; };
 		3A5934921C6E6C708A447329 /* libPods-DeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E531A94FC3E3AB713D91465A /* libPods-DeviceInfo.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D49562920B3B30600F3B617 /* MyCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		0D49562A20B3B30600F3B617 /* MyCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		0D49562D20B3B68B00F3B617 /* MyCollectionViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewItem.h; sourceTree = "<group>"; };
+		0D49562E20B3B68B00F3B617 /* MyCollectionViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewItem.m; sourceTree = "<group>"; };
 		0D5107D7205FAE7B0083E9E2 /* DeviceInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5107DA205FAE7B0083E9E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D5107DB205FAE7B0083E9E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +65,8 @@
 		0D5107FA205FAE7B0083E9E2 /* DeviceInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5107FE205FAE7B0083E9E2 /* DeviceInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoUITests.m; sourceTree = "<group>"; };
 		0D510800205FAE7B0083E9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF232AD20AEC8D400CF53B8 /* DeviceInfo_AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfo_AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF232AE20AEC8D400CF53B8 /* DeviceInfo_AppStore.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DeviceInfo_AppStore.plist; path = /Users/liruisong/Repository/DeviceInfo/DeviceInfo_AppStore.plist; sourceTree = "<absolute>"; };
 		25D095DB912420A2E2BFC461 /* Pods-DeviceInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceInfo/Pods-DeviceInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		345820B946725E031619F1C2 /* Pods-DeviceInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceInfo/Pods-DeviceInfo.release.xcconfig"; sourceTree = "<group>"; };
 		E531A94FC3E3AB713D91465A /* libPods-DeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeviceInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +95,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DF232A220AEC8D400CF53B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF232A320AEC8D400CF53B8 /* libPods-DeviceInfo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +115,7 @@
 				0D5107D8205FAE7B0083E9E2 /* Products */,
 				4B892FE1C05F4EFABC084229 /* Pods */,
 				7E85CCF70F6ADBCBE9DF7BE7 /* Frameworks */,
+				0DF232AE20AEC8D400CF53B8 /* DeviceInfo_AppStore.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,7 @@
 				0D5107D7205FAE7B0083E9E2 /* DeviceInfo.app */,
 				0D5107EF205FAE7B0083E9E2 /* DeviceInfoTests.xctest */,
 				0D5107FA205FAE7B0083E9E2 /* DeviceInfoUITests.xctest */,
+				0DF232AD20AEC8D400CF53B8 /* DeviceInfo_AppStore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +137,10 @@
 				0D5107DB205FAE7B0083E9E2 /* AppDelegate.m */,
 				0D5107DD205FAE7B0083E9E2 /* ViewController.h */,
 				0D5107DE205FAE7B0083E9E2 /* ViewController.m */,
+				0D49562920B3B30600F3B617 /* MyCollectionViewController.h */,
+				0D49562A20B3B30600F3B617 /* MyCollectionViewController.m */,
+				0D49562D20B3B68B00F3B617 /* MyCollectionViewItem.h */,
+				0D49562E20B3B68B00F3B617 /* MyCollectionViewItem.m */,
 				0D51080D205FB1EF0083E9E2 /* Supporting Files */,
 			);
 			path = DeviceInfo;
@@ -223,6 +252,26 @@
 			productReference = 0D5107FA205FAE7B0083E9E2 /* DeviceInfoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0DF2329C20AEC8D400CF53B8 /* DeviceInfo_AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF232AA20AEC8D400CF53B8 /* Build configuration list for PBXNativeTarget "DeviceInfo_AppStore" */;
+			buildPhases = (
+				0DF2329D20AEC8D400CF53B8 /* [CP] Check Pods Manifest.lock */,
+				0DF2329E20AEC8D400CF53B8 /* Sources */,
+				0DF232A220AEC8D400CF53B8 /* Frameworks */,
+				0DF232A420AEC8D400CF53B8 /* Resources */,
+				0DF232A820AEC8D400CF53B8 /* [CP] Embed Pods Frameworks */,
+				0DF232A920AEC8D400CF53B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceInfo_AppStore;
+			productName = DeviceInfo;
+			productReference = 0DF232AD20AEC8D400CF53B8 /* DeviceInfo_AppStore.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,7 +283,7 @@
 				TargetAttributes = {
 					0D5107D6205FAE7B0083E9E2 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					0D5107EE205FAE7B0083E9E2 = {
 						CreatedOnToolsVersion = 9.2;
@@ -245,6 +294,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0D5107D6205FAE7B0083E9E2;
+					};
+					0DF2329C20AEC8D400CF53B8 = {
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -264,6 +316,7 @@
 				0D5107D6205FAE7B0083E9E2 /* DeviceInfo */,
 				0D5107EE205FAE7B0083E9E2 /* DeviceInfoTests */,
 				0D5107F9205FAE7B0083E9E2 /* DeviceInfoUITests */,
+				0DF2329C20AEC8D400CF53B8 /* DeviceInfo_AppStore */,
 			);
 		};
 /* End PBXProject section */
@@ -293,9 +346,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DF232A420AEC8D400CF53B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF232A520AEC8D400CF53B8 /* LaunchScreen.storyboard in Resources */,
+				0DF232A620AEC8D400CF53B8 /* Assets.xcassets in Resources */,
+				0DF232A720AEC8D400CF53B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0DF2329D20AEC8D400CF53B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeviceInfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DF232A820AEC8D400CF53B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceInfo/Pods-DeviceInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DF232A920AEC8D400CF53B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceInfo/Pods-DeviceInfo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AB11B3DC8F87D9C649208BB0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,7 +462,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D49562B20B3B30600F3B617 /* MyCollectionViewController.m in Sources */,
 				0D5107DF205FAE7B0083E9E2 /* ViewController.m in Sources */,
+				0D49562F20B3B68B00F3B617 /* MyCollectionViewItem.m in Sources */,
 				0D5107EA205FAE7B0083E9E2 /* main.m in Sources */,
 				0D5107DC205FAE7B0083E9E2 /* AppDelegate.m in Sources */,
 			);
@@ -370,6 +483,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5107FF205FAE7B0083E9E2 /* DeviceInfoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF2329E20AEC8D400CF53B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF2329F20AEC8D400CF53B8 /* ViewController.m in Sources */,
+				0DF232A020AEC8D400CF53B8 /* main.m in Sources */,
+				0DF232A120AEC8D400CF53B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,12 +640,14 @@
 			baseConfigurationReference = 25D095DB912420A2E2BFC461 /* Pods-DeviceInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "DeviceInfo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reason.technology.DeviceInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reason.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -532,12 +657,15 @@
 			baseConfigurationReference = 345820B946725E031619F1C2 /* Pods-DeviceInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KGHA6KJK9Z;
 				INFOPLIST_FILE = "DeviceInfo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reason.technology.DeviceInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reason.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39a0da18-a029-4cbc-b434-f5c97a54595e";
+				PROVISIONING_PROFILE_SPECIFIER = DeviceInfo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -596,6 +724,41 @@
 			};
 			name = Release;
 		};
+		0DF232AB20AEC8D400CF53B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D095DB912420A2E2BFC461 /* Pods-DeviceInfo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceInfo_AppStore.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reason.test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DF232AC20AEC8D400CF53B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345820B946725E031619F1C2 /* Pods-DeviceInfo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KGHA6KJK9Z;
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceInfo_AppStore.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reason.test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d27f1d1d-7104-414c-b103-8ac3a3b3a928";
+				PROVISIONING_PROFILE_SPECIFIER = DeviceInfo_AppStore;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -631,6 +794,15 @@
 			buildConfigurations = (
 				0D51080A205FAE7B0083E9E2 /* Debug */,
 				0D51080B205FAE7B0083E9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF232AA20AEC8D400CF53B8 /* Build configuration list for PBXNativeTarget "DeviceInfo_AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF232AB20AEC8D400CF53B8 /* Debug */,
+				0DF232AC20AEC8D400CF53B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
